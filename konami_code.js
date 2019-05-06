@@ -15,7 +15,7 @@ function init() {
   const input = document.querySelector('input')
 
   input.addEventListener('keydown', function(e) {
-    if (codes[e.key] > -1) {
+    if (codes.includes(e.key)) {
       return e.preventDefault()
     } else {
       console.log(e.key)
