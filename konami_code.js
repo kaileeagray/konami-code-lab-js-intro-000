@@ -22,6 +22,7 @@ function init() {
       console.log(index);
 
       if (index === codes.length) {
+        console.log("done!");
         alert("Hurray!");
         index = 0;
       }
