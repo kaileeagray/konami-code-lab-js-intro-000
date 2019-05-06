@@ -26,7 +26,7 @@ function init() {
         index = 0;
       }
     } else {
-      console.log("else, index: " + index + " key: " + e.key)
+      console.log("else, index: " + index + " key: " + e.key);
       index = 0;
     }
   });
