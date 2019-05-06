@@ -16,18 +16,14 @@ function init() {
   let index = 0;
 
   document.body.addEventListener('keydown', function(e) {
-    console.log(e.key);
     if (e.key === codes[index]) {
       index++;
-      console.log(index);
 
       if (index === codes.length) {
-        console.log("done!");
         window.alert("Hurray!");
         index = 0;
       }
     } else {
-      console.log("else, index: " + index + " key: " + e.key);
       index = 0;
     }
   });
