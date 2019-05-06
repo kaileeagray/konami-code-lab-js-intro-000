@@ -12,11 +12,6 @@ const codes = [
 ];
 
 function init() {
-  // your code here
-
-  // Keys for A, B, and C keys.
-  const alphabet = ['a', 'b', 'c'];
-
   // Keep track of index outside of the event handler.
   let index = 0;
 
