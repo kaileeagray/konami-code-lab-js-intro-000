@@ -15,7 +15,7 @@ function init() {
   const input = document.querySelector('input')
 
   input.addEventListener('keydown', function(e) {
-    if (e.key === "g") {
+    if (e.key) {
       return e.preventDefault()
     } else {
       console.log(e.key)
