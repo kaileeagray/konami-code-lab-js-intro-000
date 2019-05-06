@@ -23,7 +23,7 @@ function init() {
 
       if (index === codes.length) {
         console.log("done!");
-        alert("Hurray!");
+        window.alert("Hurray!");
         index = 0;
       }
     } else {
