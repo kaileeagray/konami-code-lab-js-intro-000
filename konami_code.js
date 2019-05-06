@@ -23,7 +23,6 @@ function init() {
 
       if (index === codes.length) {
         console.log("done!");
-        delete window.alert;
         window.alert("Hurray!");
         index = 0;
       }
