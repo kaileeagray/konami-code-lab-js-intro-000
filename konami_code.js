@@ -12,7 +12,15 @@ const codes = [
 ];
 
 function init() {
-
+  const input = document.querySelector('input')
+   
+  input.addEventListener('keydown', function(e) {
+    if (e.key === "g") {
+      return e.preventDefault()
+    } else {
+      console.log(e.key)
+    }
+  });
 }
 
 // Keep track of index outside of the event handler.
