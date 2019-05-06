@@ -15,10 +15,16 @@ function init() {
   const input = document.querySelector('input')
 
   input.addEventListener('keydown', function(e) {
-    if (codes.includes(e.key)) {
-      return e.preventDefault()
+    if (key === codes[index]) {
+      index++;
+
+      if (index === codes.length) {
+        alert("Hurray!");
+
+        index = 0;
+      }
     } else {
-      console.log(e.key)
+      index = 0;
     }
   });
 }
